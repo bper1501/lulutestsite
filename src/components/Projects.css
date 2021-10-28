@@ -1,0 +1,257 @@
+.project-container{
+  width: 100%;
+  padding: 2rem;
+}
+.project-container > h3{
+  text-align: center;
+  font-size: 24px;
+}
+.project1{
+  padding: 3rem;
+  height: 30rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+.project1-card{
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  -webkit-box-shadow:0 10px 15px -6px  #000000;
+  -moz-box-shadow:0 10px 15px -6px  #000000;
+  box-shadow:0 10px 15px -6px #000000;
+  border-style:  none solid solid outset;
+  border-color: #ccccccf3;
+
+}
+.project1-card:hover{
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.firepit-before{
+  background: url(/src/images/firepitBefore.jpg) center center/ cover no-repeat;
+  height: 400px;
+  width: 400px;
+
+
+}
+.title{
+  height: 400px;
+  width: 400px;
+  position: relative;
+
+
+}
+.title > h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  color: #000000;
+ 
+}
+.firepit-after{
+  background: url(/src/images/firepitAfter.jpg) center center/ cover no-repeat;
+  height: 400px;
+  width: 400px;
+
+}
+.project2{
+  padding: 2rem;
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project2-card{
+  -webkit-box-shadow:0 10px 15px -6px  #000000;
+  -moz-box-shadow:0 10px 15px -6px  #000000;
+  box-shadow:0 10px 15px -6px #000000;
+}
+.project2-card:hover{
+   -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.yard-img{
+  background: url(/src/images/yard.jpg) center center/cover no-repeat;
+  height: 600px;
+  width: 1200px;
+
+}
+.title-card{
+
+  width: 1200px;
+  height: 100px;
+  border-style:  none solid solid outset;
+  border-color: #ccccccf3;
+
+}
+.title-card > h1{
+  color: #000000;
+  text-align: center;
+  padding: 30px 0 ;
+
+}
+.project3{
+  padding: 2rem;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+}
+.e-card-container{
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.e-card-image{
+  background: url(/src/images/image10.jpg) center center/cover no-repeat;
+  height: 350px;
+}
+.e-card{
+  width: 325px;
+  height: 350px;
+  border-radius: 1%;
+  -webkit-box-shadow:0 10px 21px -6px  #000000;
+  -moz-box-shadow:0 10px 21px -6px  #000000;
+  box-shadow:0 10px 21px -6px #000000;
+}
+.e-card-content > h2{
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+  
+}
+.e-card-content{
+  height: 85px;
+}
+
+@media screen and (max-Width: 1200px ) {
+  .project2{
+    padding: 2rem;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .yard-img{
+    height: 400px;
+    width: 850px;
+    margin: auto;
+  }
+
+  .title-card{
+    width: 850px;
+    height: 100px;
+  
+  }
+  .firepit-before{
+    height: 400px;
+    width: 282px;
+  }
+  .title{
+    height: 400px;
+    width: 282px;
+  }
+
+  .firepit-after{
+    height: 400px;
+    width: 282px;
+  }
+  .e-card{
+    width: 250px;
+  }
+  .e-card-container{
+    width: 850px;
+  }
+
+}
+
+@media screen and (max-Width: 540px ) {
+  .project-container > h3{
+    text-align: center;
+    font-size: 16px;
+  }
+  .project1{
+    padding: 3rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .project1-card{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+  }
+  .project2{
+    padding: 2rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .project3 {
+      padding: 2rem;
+      height: 50rem;
+      display: flex;
+      
+  }
+  .title > h1{
+    position: absolute;
+    font-size: 18px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #000000;
+  }
+  .yard-img{
+    height: 200px;
+    width: 350px;
+    margin: auto;
+  }
+  .title-card{
+    width: 355px;
+    height: 100px;
+  }
+  .firepit-before{
+    height: 200px;
+    width: 115px;
+  }
+  .title{
+    height: 200px;
+    width: 115px;
+  }
+  .firepit-after{
+    height: 200px;
+    width: 115px;
+  }
+  .e-card{
+    width: 250px;
+    height: 200px;
+    margin-bottom: 30px;
+  
+  }
+  .e-card-content > h2{
+    font-size: 22px;
+  }
+  .e-card-content{
+    height: 65px;
+  }
+  .e-card-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: space-between; 
+    
+  }
+
+
+}

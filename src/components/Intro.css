@@ -1,0 +1,138 @@
+.introduction{
+  padding: 1rem 15rem;
+  height: 25rem;
+
+}
+.intro-text> img{
+  height: 300px;
+  width: 700px;
+  border-radius: 50%;
+}
+.intro-title{
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 2rem;
+  padding-right: 2rem;
+
+}
+.intro-text{
+  display: flex;
+  justify-content: center;
+
+}
+.intro-text> h2{
+  padding: 1rem 2rem;
+  text-align: center;
+  
+}
+
+.history{
+  padding: 1rem 8rem;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.history-text> h2{ 
+  padding-top: 1rem;
+}
+
+
+.mission{
+  padding: 2rem 5rem;
+  height: 20rem;
+
+
+}
+.mission-title{
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+
+}
+.mission-text{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
+@media screen and (max-Width: 970px ) {
+  .introduction{
+    padding: 1rem 8rem;
+    height: 25rem;
+  
+  }
+  .intro-title{
+    padding-top: 1rem;
+    padding-right: 1rem;
+  
+  }
+  .intro-text> h2{
+    padding: 2rem 1rem;
+    text-align: center;
+    font-size: 20px;
+    
+  }
+  .intro-text> img{
+    height: 300px;
+    width: 700px;
+    border-radius: 50%;
+  }
+  .history-text> h2{ 
+    padding-top: 1rem;
+    font-size: 20px;
+  }
+
+  .mission-text > h2{
+    text-align: left;
+    font-size: 20px;
+  
+  }
+
+}
+
+@media screen and (max-Width: 540px ) {
+  .introduction{
+    padding: 1.5rem 1rem;
+    height: 20rem;
+  
+  }
+  .intro-text> h2{
+    padding: 1rem 1rem;
+    text-align: center;
+    font-size: 16px;
+    
+  }
+  .intro-text> img{
+    padding-top: .5rem;
+    height: 150px;
+    width: 700px;
+    border-radius: 50%;
+  }
+  .history{
+    height: 15rem;
+    padding: 1rem 4rem;
+  }
+  .history-text> h2{ 
+    padding-top: 1rem;
+    font-size: 16px;
+    text-align: center;
+  }
+  .mission{
+    height: 20rem;
+    padding: 1rem 2rem;
+  }
+  .mission-title{
+    padding-left: 0rem;
+    padding-bottom: 1rem;
+  }
+  .mission-text > h2{
+    text-align: left;
+    font-size: 16px;
+  }
+
+
+}

@@ -1,0 +1,41 @@
+.footer-container{
+  padding: 1rem;
+  background-color: #628395;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-wrapper > img{  
+  display: block;
+  margin: auto;
+  height: 200px;
+  width: 250px;
+
+}
+
+.footer-wrapper> h3 , h5{
+  text-align: center;
+  color: #fff;
+}
+
+.footer-wrapper{
+  display: flex;
+  flex-flow: column;
+
+}
+.footer-wrapper > .icons{
+  color: #fff;
+  padding: 20px;
+  display: block;
+  margin: auto;
+}
+
+@media screen and (max-Width: 540px ) {
+  .foot-wrapper > .fa-facebook-square , .fa-instagram{
+    margin-top: 0;
+    text-align: center;
+    font-size: 32px;
+
+
+  }
+}
