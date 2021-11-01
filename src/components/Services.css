@@ -1,0 +1,59 @@
+.service-container {
+  padding: 2rem;
+}
+.service-container > h3 {
+  text-align: center;
+  padding: 1rem;
+}
+.row-container{
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+.container1{
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+  list-style-type: none;
+}
+.container2{
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+  list-style-type: none;
+}
+.service-btn  .btn{
+  background-color: #1ec993;
+  color: white;
+  width: 400px;
+  
+}
+.service_card{
+  height: 250px;
+  width:600px;
+  margin-bottom: 5rem;
+  background-color: #EBEBEB;
+  border-radius: 3%;
+  display: flex;
+  justify-content: center;
+  -webkit-box-shadow:0 10px 15px #707070;
+  -moz-box-shadow:0 10px 15px #707070;
+  box-shadow:0 10px 15px #707070;
+}
+
+.service_card_pic{
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+  padding: 1rem 0;
+}
+.service_card_title{
+  color: #000000;
+  padding-bottom: 10px;
+}
+.service_card_info{
+  padding: 1rem;
+  width: 50%;
+  text-align: center;
+}

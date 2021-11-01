@@ -201,6 +201,7 @@
       padding: 2rem;
       height: 50rem;
       display: flex;
+      justify-content: center;
       
   }
   .title > h1{
@@ -250,6 +251,7 @@
     justify-content: center;
     flex-direction: column;
     align-content: space-between; 
+    align-content: center;
     
   }
 

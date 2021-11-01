@@ -3,7 +3,7 @@ import HeroSection from '../HeroSection'
 import Cards from '../Cards';
 import SocialMedia from '../SocialMedia';
 import Process from '../Process';
-import Footer from '../Footer';
+
 
 
 function Home () {
@@ -13,7 +13,6 @@ function Home () {
       <Cards />
       <SocialMedia />
       <Process/>
-      <Footer />
 
     </>
   )
