@@ -1,0 +1,95 @@
+.gallery-container{
+  padding: 1rem;
+}
+.gallery-container> h3{
+  text-align: center;
+  font-size: 24px;
+
+}
+.menu{
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  padding: .5rem;
+  color: #919191;
+  
+}
+.menu > li{
+  padding-left: 1rem;
+  
+}
+.menu > li , button{
+  padding: 3px;
+  
+}
+.gallery{
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+.images-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(200px, auto);
+}
+.img-modal{
+  height: 400px;
+  width: 400px;
+  border-radius: 5%;
+  cursor: pointer;
+}
+.images-container > img:hover{
+  transform: scale(1.03);
+  transition: all 0.1s linear;
+}
+
+.paginationBttns{
+  padding: 1.5em;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.paginationBttns a{
+  padding: 5px;
+  margin: 2px;
+  border-radius: 3px;
+  border: 1px solid;
+  cursor: pointer;
+  font-size: 12px;
+}
+.paginationBttns a:hover{
+  color: white;
+  background-color: #919191;
+}
+
+.paginationActive a{
+  color: white;
+  background-color: #919191;
+}
+
+
+@media screen and (max-Width: 1200px ) {
+.img-modal{
+  height: 200px;
+  width: 200px;
+  border-radius: 5%;
+}
+
+}
+
+@media screen and (max-Width: 540px ) {
+  .img-modal{
+    height: 200px;
+    width: 200px;
+    border-radius: 5%;
+  }
+  .images-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(200px, auto);
+  }
+  
+
+}

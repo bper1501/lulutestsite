@@ -26,7 +26,7 @@
   background-color: #1ec993;
   color: white;
   width: 400px;
-  
+
 }
 .service_card{
   height: 250px;
@@ -40,13 +40,13 @@
   -moz-box-shadow:0 10px 15px #707070;
   box-shadow:0 10px 15px #707070;
 }
-
 .service_card_pic{
   width: 250px;
   height: 250px;
   object-fit: cover;
   display: block;
   padding: 1rem 0;
+  cursor: pointer;
 }
 .service_card_title{
   color: #000000;
@@ -56,4 +56,48 @@
   padding: 1rem;
   width: 50%;
   text-align: center;
+}
+
+@media screen and (max-Width: 1200px ) {
+  .row-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+
+}
+
+@media screen and (max-Width: 540px ) {
+  .row-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .service-btn  .btn{
+    background-color: #1ec993;
+    color: white;
+    width: 200px;
+    font-size: 16px;
+  }
+  .service_card{
+    height: 200px;
+    width:350px;
+  }
+  .service_card_pic{
+    width: 200px;
+    height: 200px;
+    padding: 1rem 1rem;
+  }
+  .service_card_title{
+    font-size: 20px;
+  }
+  .service_card_text{
+    font-size: 16px;
+  }
+
+
+
 }

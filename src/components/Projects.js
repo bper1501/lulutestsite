@@ -15,8 +15,9 @@ function Projects() {
         Enjoy some of Lulu’s Landscaping previous projects. 
         Use them as inspiration and visualization of the work we offer!
         </h3>
-        <Link to="/project1" style={{textDecoration:'none'}}>
+
         <div className="project1">
+        <Link to="/project1" style={{textDecoration:'none'}}>
             <div className="project1-card">
             <div className="firepit-before">
           </div>
@@ -26,20 +27,21 @@ function Projects() {
           <div className="firepit-after">
           </div>
             </div>
+            </Link>
         </div>
-        </Link>
 
-        <Link to="/project2" style={{textDecoration:'none'}}> 
+
         <div className="project2" >
+        <Link to="/project2" style={{textDecoration:'none'}}> 
           <div className="project2-card">
             <div className="yard-img"></div>  
             <div className="title-card">
               <h1>Bloomington Yard</h1>
             </div>      
           </div>
+          </Link>
         </div>
-        </Link>
-  
+   
 
 
         <div className="project3">

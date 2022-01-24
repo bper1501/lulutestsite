@@ -18,16 +18,19 @@ function Services() {
             src="img/firepit.jpg"
             title="Fire Features"
             text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, laborum."
+            path="/Gallery"
             />
           <ServiceCard
             src="img/paver.jpg"
             title="Paver Patios"
             text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, laborum."
+            path="/Gallery"
             />
           <ServiceCard
             src="img/fenceExmp.jpg"
             title="Fences"
             text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, laborum."
+            path="/Gallery"
             />
         </ul>
         <ul className="container2">
@@ -35,16 +38,19 @@ function Services() {
             src="img/waterfeat.jpg"
             title="Water Features"
             text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, laborum."
+            path="/Gallery"
             />
             <ServiceCard
             src="img/curbapp.jpg"
             title="Curb Appeal"
             text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, laborum."
+            path="/Gallery"
             />
             <ServiceCard
             src="img/image9.jpg"
             title="Retainer Walls"
             text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, laborum."
+            path="/Gallery"
             />
         </ul>
         </div>
