@@ -1,3 +1,7 @@
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+}
 .introduction{
   padding: 1rem 15rem;
   height: 25rem;
@@ -11,7 +15,7 @@
 .intro-title{
   display: flex;
   justify-content: flex-end;
-  padding-top: 2rem;
+  padding-top: 4rem;
   padding-right: 2rem;
 
 }
@@ -19,15 +23,15 @@
   display: flex;
   justify-content: center;
 
+
 }
 .intro-text> h2{
   padding: 1rem 2rem;
   text-align: center;
-  
 }
 
 .history{
-  padding: 1rem 8rem;
+  padding: 1rem 5rem;
   height: 15rem;
   display: flex;
   justify-content: center;
@@ -56,6 +60,7 @@
   display: flex;
   justify-content: center;
   text-align: center;
+
 }
 
 

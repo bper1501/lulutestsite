@@ -23,7 +23,7 @@ function Cards() {
             />
             <CardItem
               src="img/image9.jpg"
-              text="Completely renovate the look of your yard with a retainer wall"
+              text="Completely renovate the look of your yard with a retaining wall"
               label="Retaining Walls"
               path="/services"
             />

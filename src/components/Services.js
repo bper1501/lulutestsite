@@ -17,19 +17,19 @@ function Services() {
           <ServiceCard
             src="img/firepit.jpg"
             title="Fire Features"
-            text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, laborum."
+            text="There's nothing like memories made around a firepit. No matter how simple or complex you may want your firepit, the amount of fun and enjoyment you and your family will have is priceless. "
             path="/Gallery"
             />
           <ServiceCard
             src="img/paver.jpg"
             title="Paver Patios"
-            text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, laborum."
+            text="Summers spent on the patio are summers well spent. Trust us to use the best materials and techniques to gaurantee durability."
             path="/Gallery"
             />
           <ServiceCard
             src="img/fenceExmp.jpg"
             title="Fences"
-            text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, laborum."
+            text="The privacy a fence brings is something that we sometimes take for granted, but trust us when we say, it will be a decision you wont regret!"
             path="/Gallery"
             />
         </ul>
@@ -37,19 +37,19 @@ function Services() {
             <ServiceCard
             src="img/waterfeat.jpg"
             title="Water Features"
-            text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, laborum."
+            text="At Lulu's we appreciate a well executed water feature. Yes, you do need that fountain in that backyard!"
             path="/Gallery"
             />
             <ServiceCard
             src="img/curbapp.jpg"
             title="Curb Appeal"
-            text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, laborum."
+            text="If there is something that you will appreciate daily it is your homes curb appeal. The great satisfying feeling you get pulling up to your home and seeing how beautiful and welcoming it looks for you and others."
             path="/Gallery"
             />
             <ServiceCard
             src="img/image9.jpg"
             title="Retainer Walls"
-            text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, laborum."
+            text="A good retaining wall can serve serveral purposes. Whether you're looking to avoid soil erosion, or correct a drainage issue, or simply give your yard a level aesthetically  pleasing look, a retaining wall is for you!"
             path="/Gallery"
             />
         </ul>

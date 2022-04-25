@@ -4,7 +4,9 @@
   padding: 2rem;
 
 }
-
+.social-wrapper > h2{
+  font-family: 'Roboto Mono', monospace;
+}
 .social-wrapper > h2, .fa-facebook-square , .fa-instagram{
   color: #fff;
   margin-top: 0;

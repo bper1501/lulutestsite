@@ -31,7 +31,7 @@ function Process() {
         </div>
         <div className="row4">        
           <div className="row-item row-item-10">
-            <h2>Once completed, Count on us to maintain it.</h2>
+            <h2>Once completed.. count on us to maintain it.</h2>
             <p>A beautiful yard is an invesment and you can 110% count on us to keep it as beautiful as the first day by providing scheduled follow up maintenance.</p>
           </div>        
           <div className="row-item row-item-11"><img src="img/rake.png" alt="rake-img" /></div> 
