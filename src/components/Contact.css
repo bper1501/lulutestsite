@@ -26,10 +26,11 @@
   padding: 1em;
   display: flex;
   justify-content: center;
+
 }
 
 .form{
-  height: 70vh;
+
   width: 500px;
   text-align: center;
   background-color: rgb(224, 224, 224, 0.2);
@@ -49,6 +50,20 @@
   height: 45px;
 }
 
+.error{
+  color: #f39c12;
+}
+
+.successMsg{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50,-50);
+  width: 400px;
+  height: 200px;
+  padding: 2em;
+  z-index: 1000;
+}
+
 textarea{
   height: 215px;
   background: transparent;
@@ -62,5 +77,19 @@ textarea{
   text-transform: uppercase;
   width: 120px;
   color: #628395;
+
+}
+
+@media screen and (max-Width: 970px ) {
+
+
+}
+
+@media screen and (max-Width: 540px ) {
+
+  .message{
+    font-size: 14px;
+  }
+
 
 }

@@ -37,7 +37,7 @@ function Services() {
             <ServiceCard
             src="img/waterfeat.jpg"
             title="Water Features"
-            text="At Lulu's we appreciate a well executed water feature. Yes, you do need that fountain in that backyard!"
+            text="At Lulu's we appreciate a well executed water feature. Yes, you do need that fountain in your backyard!"
             path="/Gallery"
             />
             <ServiceCard

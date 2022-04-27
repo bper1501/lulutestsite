@@ -9,11 +9,15 @@ import Services from './components/pages/Servicespage';
 import PhotoGallery from './components/pages/PhotoGallery';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
+import ScrollToTop from './components/ScrollToTop';
+
+
 
 function App() {
   return (
     <>
       <Router>
+        <ScrollToTop/>
         <Navbar/>
         <Switch>
           <Route path='/' exact component = {Home} />

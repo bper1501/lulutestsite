@@ -85,9 +85,10 @@
     color: white;
     width: 200px;
     font-size: 16px;
+    border-radius: 4%;
   }
   .service_card{
-    height: 200px;
+    height: 225px;
     width:350px;
   }
   .service_card_pic{
@@ -96,10 +97,10 @@
     padding: 1rem 1rem;
   }
   .service_card_title{
-    font-size: 20px;
+    font-size: 14px;
   }
   .service_card_text{
-    font-size: 16px;
+    font-size: 12px;
   }
 
 
