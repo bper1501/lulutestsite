@@ -16,7 +16,7 @@ import ScrollToTop from './components/ScrollToTop';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename='luluslandscape.com'>
         <ScrollToTop/>
         <Navbar/>
         <Switch>
