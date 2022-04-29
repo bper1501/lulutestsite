@@ -8,7 +8,7 @@ function Footer() {
       <div className="footer-container">
      
         <div className="footer-wrapper">
-          <img src="logo.png" alt="logo-img" />
+          <img src="/logo.png" alt="logo-img" />
           <div className="icons">
           <a href="https://www.facebook.com/Lul%C3%BAslandscaping-109664051179463" target="_blank" rel="noreferrer">
             <i class="fab fa-facebook-square fa-2x "></i>
