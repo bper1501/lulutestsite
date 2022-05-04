@@ -87,6 +87,8 @@ textarea{
     font-size: 14px;
     height: 165px;
   }
-
+  .info{
+    height: 165px;  
+  }
 
 }
