@@ -48,6 +48,7 @@ function Contact() {
   const validate = (values) => {
     const errors = {};
     const regex= /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
+    var phoneno = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
 
     if(!values.sender){
       errors.sender = "Name is required!";
@@ -57,7 +58,7 @@ function Contact() {
     }
     if(!values.phone){
       errors.phone = "Phone Number is required!";
-    } else if (!values.phone.length < 10){
+    } else if (!phoneno.test(values.phone)){
       errors.phone = "please enter 10 digit phone number including area code"
     }
     if(!values.email){

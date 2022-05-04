@@ -2,11 +2,6 @@
 h2{
   font-family: 'Montserrat', sans-serif;
 }
-.introduction{
-  padding: 1rem 15rem;
-  height: 25rem;
-
-}
 .intro-text> img{
   height: 300px;
   width: 700px;
@@ -15,15 +10,12 @@ h2{
 .intro-title{
   display: flex;
   justify-content: flex-end;
-  padding-top: 4rem;
+  padding: 1rem;
   padding-right: 2rem;
-
 }
 .intro-text{
   display: flex;
   justify-content: center;
-
-
 }
 .intro-text> h2{
   padding: 1rem 2rem;
@@ -31,7 +23,7 @@ h2{
 }
 
 .history{
-  padding: 1rem 5rem;
+  padding: 1rem;
   height: 15rem;
   display: flex;
   justify-content: center;
@@ -44,10 +36,8 @@ h2{
 
 
 .mission{
-  padding: 2rem 5rem;
+  padding: 2rem ;
   height: 20rem;
-
-
 }
 .mission-title{
   display: flex;
@@ -60,16 +50,10 @@ h2{
   display: flex;
   justify-content: center;
   text-align: center;
-
 }
 
 
 @media screen and (max-Width: 970px ) {
-  .introduction{
-    padding: 1rem 8rem;
-    height: 25rem;
-  
-  }
   .intro-title{
     padding-top: 1rem;
     padding-right: 1rem;
@@ -102,7 +86,6 @@ h2{
 @media screen and (max-Width: 540px ) {
   .introduction{
     padding: 1.5rem 1rem;
-    height: 20rem;
   
   }
   .intro-title> h1{
@@ -123,7 +106,7 @@ h2{
   }
   .history{
     height: 15rem;
-    padding: 4rem 4rem;
+    padding: 1rem ;
   }
   .history-text> h2{ 
     padding-top: 1rem;
@@ -149,6 +132,4 @@ h2{
   .mission-title > h1{
     font-size: 22px;
   }
-
-
 }

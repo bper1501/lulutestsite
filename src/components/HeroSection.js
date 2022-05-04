@@ -10,7 +10,7 @@ function HeroSection() {
     <div className="hero-container">
       <h1>Bring Your Dream Yard To Life</h1>
       <div className="hero-btns">
-        <Button className="btn" buttonStyle="btn--primary" buttonSize="btn--large">Learn More</Button>
+        <Button className="btn" buttonStyle="btn--primary" buttonSize="btn--large">Free Quote</Button>
       </div>
     </div>
     

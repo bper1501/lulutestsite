@@ -17,7 +17,7 @@ function Intro() {
       <div className="history">
         <div className="history-text">
           <h1>Our Experience</h1>
-          <h2>Our team has over 15 years of experience in the industry. We have seen and done it all. We understand the beautiful environment Minnesota offers and use the best materials, plants and techniques proven to withstand the test of time.No matter how big or small your project may be, we gaurantee prompt,professional quality work!</h2>
+          <h2>Our team has over 15 years of experience in the industry. We have seen and done it all. We understand the beautiful environment Minnesota offers and use the best materials, plants and techniques proven to withstand the test of time.No matter how big or small your project may be, we gaurantee prompt and professional quality work!</h2>
         </div>
       </div>
       <div className="mission">
