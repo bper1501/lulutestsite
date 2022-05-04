@@ -80,15 +80,12 @@ textarea{
 
 }
 
-@media screen and (max-Width: 970px ) {
-
-
-}
 
 @media screen and (max-Width: 540px ) {
 
   .message{
     font-size: 14px;
+    height: 165px;
   }
 
 
